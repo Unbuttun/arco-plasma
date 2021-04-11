@@ -2,7 +2,7 @@
 
 # Get your code to build your own iso
 
-	git clone https://github.com/arcolinuxb/arco-plasma
+	git clone https://github.com/Unbuttun/arco-plasma
 
 # Follow installation tutorials on
 
