@@ -10,7 +10,7 @@ base
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
+# clonezilla
 crda
 darkhttpd
 ddrescue
@@ -71,10 +71,10 @@ ntfs-3g
 nvme-cli
 ntp
 openconnect
-openssh
-openvpn
-partclone
-parted
+# openssh
+# openvpn
+# partclone
+# parted
 partimage
 ppp
 pptpclient
@@ -91,7 +91,7 @@ sudo
 syslinux
 #systemd-resolvconf
 tcpdump
-terminus-font
+# terminus-font
 #termite-terminfo
 testdisk
 usb_modeswitch
@@ -159,9 +159,9 @@ base
 base-devel
 
 ###virtual box or vmware
-open-vm-tools
+#open-vm-tools
 #virtualbox-guest-modules-arch
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
@@ -194,7 +194,7 @@ bluez-utils
 pulseaudio-bluetooth
 
 ###network
-avahi
+# avahi
 nss-mdns
 mobile-broadband-provider-info
 modemmanager
@@ -220,27 +220,27 @@ udisks2
 xdg-user-dirs
 
 ###printers
-cups
-cups-filters
-cups-pdf
-cups-pk-helper
-ghostscript
-gsfonts
-gtk3-print-backends
-gutenprint
-libcups
+#cups
+#cups-filters
+#cups-pdf
+#cups-pk-helper
+#ghostscript
+#gsfonts
+#gtk3-print-backends
+#gutenprint
+#libcups
 #hplip
-splix
-system-config-printer
+#splix
+#system-config-printer
 
 ###tumbler
-tumbler
-ffmpegthumbnailer
-freetype2
-libgsf
-libopenraw
-poppler-glib
-poppler-qt5
+#tumbler
+#ffmpegthumbnailer
+#freetype2
+#libgsf
+#libopenraw
+#poppler-glib
+#poppler-qt5
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -248,13 +248,13 @@ poppler-qt5
 
 ###applications
 #atom
-#chromium
+chromium
 #darktable
 #deadbeef
 #dmenu
 #evolution
 feh
-firefox
+firefox-developer-edition
 #flashplugin
 #galculator
 #geany
@@ -268,25 +268,25 @@ imagemagick
 #lshw
 #meld
 #nitrogen
-numlockx
+#numlockx
 #pragha
 #qbittorrent
 scrot
 #simplescreenrecorder
-termite
+#termite
 variety
 #vlc
 
 ###conky
-jq
+#jq
 #lm_sensors
 
 ###cursors
 #xcursor-simpleandsoft
 
 ###fonts
-adobe-source-sans-pro-fonts
-awesome-terminal-fonts
+#adobe-source-sans-pro-fonts
+#awesome-terminal-fonts
 noto-fonts
 #ttf-bitstream-vera
 ttf-dejavu
@@ -300,30 +300,30 @@ ttf-ubuntu-font-family
 ###icons
 #arc-icon-theme
 #gnome-icon-theme
-#papirus-icon-theme
+papirus-icon-theme
 
 ###themes
 #adapta-gtk-theme
-arc-gtk-theme
-#kvantum-qt5
+#arc-gtk-theme
+kvantum-qt5
 #openbox-arc-git
 
 ###utilities
-arandr
-asciinema
-bash-completion
+#arandr
+#asciinema
+#bash-completion
 #baobab
 #catfish
 #cronie
-dconf-editor
+#dconf-editor
 #dex
 #discord
 #dmidecode
-duf-bin
-edid-decode-git
+#duf-bin
+#edid-decode-git
 #evince
 expac
-file-roller
+#file-roller
 #filezilla
 git
 gksu
@@ -338,7 +338,7 @@ gparted
 #gtop
 hardinfo
 #hddtemp
-htop
+#htop
 #hunspell
 #hunspell-en_US
 hw-probe
@@ -353,7 +353,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-oh-my-zsh-git
+#oh-my-zsh-git
 p7zip
 #plank
 playerctl
@@ -389,12 +389,12 @@ wmctrl
 xapps
 xdo
 xdotool
-#xdg-desktop-portal-gtk
-#youtube-dl
-zenity
+xdg-desktop-portal-gtk
+youtube-dl
+#zenity
 zsh
-zsh-completions
-zsh-syntax-highlighting
+#zsh-completions
+#zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPOS
@@ -409,12 +409,12 @@ zsh-syntax-highlighting
 #breeze-cursors-lh
 #breeze-obsidian-cursor-theme
 #oxy-neon
-bibata-cursor-theme-bin
+#bibata-cursor-theme-bin
 breeze
 #xcursor-vanilla-dmz-aa
 
 ###fonts
-ttf-font-awesome
+#ttf-font-awesome
 ttf-ms-fonts
 
 ###icons
@@ -439,12 +439,12 @@ mkinitcpio-openswap
 ###utilities-repo
 appstream
 archiso
-conky-lua-archers
+# conky-lua-archers
 downgrade
 #font-manager-git
 #glxinfo
 #gitahead-bin
-grub-customizer
+# grub-customizer
 hardcode-fixer-git
 inxi
 mintstick-git
@@ -461,14 +461,14 @@ python-pyparted
 #screenkey-git
 #sublime-text-dev
 #the_platinum_searcher-bin
-tmux
-trizen
-urxvt-perls
-urxvt-resize-font-git
+#tmux
+#trizen
+#urxvt-perls
+#urxvt-resize-font-git
 #wttr
-yad
+#yad
 yakuake
-yay-bin
+paru-bin
 
 ###########################################################################
 #                               GAMES
